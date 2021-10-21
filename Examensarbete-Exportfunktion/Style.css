@@ -1,0 +1,27 @@
+* {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+.myButton {
+  background-color: #f5f5f5;
+  border: 0.1em solid rgb(168, 164, 164);
+  display: inline-block;
+  padding: 1em 3em;
+  border-radius: 0.5em;
+  margin: 0.5em;
+  font-weight: 400;
+  font-family: sans-serif;
+  text-shadow: 0 0.06em 0.06em rgba(63, 63, 63, 0.35);
+  transition: all 0.15s;
+  outline: none;
+}
+.myButton span {
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: inherit;
+}
+.myButton:hover {
+  background-color: #e8e8e8;
+}
